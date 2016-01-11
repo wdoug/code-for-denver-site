@@ -63,6 +63,7 @@
       font-size: 1.15em;
     }
   </style>
+  <link rel="stylesheet" href="../libs/odometer/themes/odometer-theme-default.css" charset="utf-8">
 </head>
 <body>
 <div class="container-fluid">
@@ -97,6 +98,18 @@
     <hr>
     <div class="row">
       <div class="col-lg-12">
+        <h3>
+          We volunteered an estimated
+        <h3>
+        <h1>
+          <span data-time="3000" class="odometer">0</span> hours
+        </h1>
+        <h3>
+          = <span data-time="75" class="odometer">0</span> work weeks
+        </h3>
+        <h3>
+          = <span data-time="1.5" class="odometer">0</span> work years
+        </h3>
         <h2>Page Content</h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
         Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
@@ -133,5 +146,7 @@
 //    parallax();
 //  });
 </script>
+<script src="./volunteerTime.js"></script>
+<script src="../libs/odometer/odometer.min.js"></script>
 </body>
 </html>
